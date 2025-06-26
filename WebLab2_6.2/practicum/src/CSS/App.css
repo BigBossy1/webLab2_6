@@ -1,0 +1,57 @@
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+
+}
+
+span{
+    user-select: none;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+span:hover{
+    color: blue;
+}
+
+.selected{
+    color: blue;
+    font-weight: bold;
+}
+
+.App{
+    height: 700px;
+}
+
+svg {
+    width: 800px;
+    height: 600px;
+}
+
+svg path, line {
+    fill: none;
+    stroke: black;
+    width: 1px;
+}
+
+svg text {
+    font: 8px Verdana;
+}
+
+.error{
+    color: red;
+}
+
+.element:hover{
+    background-color: grey;
+}
+.topList{
+    background-color: darkgrey;
+}
